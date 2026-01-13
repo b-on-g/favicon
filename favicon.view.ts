@@ -1,6 +1,6 @@
-namespace $ {
+namespace $.$$ {
 	/** Плагин, который ставит favicon из переданного $mol_icon_* и подобных */
-	export class $bog_favicon extends $mol_plugin {
+	export class $bog_favicon extends $.$bog_favicon {
 		// сюда передаем Icon <= icon $mol_icon_waze
 		@$mol_mem
 		Icon(next?: $mol_view): $mol_view {
